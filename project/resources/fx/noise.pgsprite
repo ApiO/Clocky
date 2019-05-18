@@ -1,0 +1,7 @@
+{
+	"blend_mode" : "overlay",
+	"setup_frame" : "default",
+	"frames" : {
+		"default": { "texture": "fx/noise", "color": [255, 255, 255, 250] }
+	}
+}

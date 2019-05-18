@@ -1,0 +1,113 @@
+{
+	"tracks": {
+		"bone": {
+			"main": {}
+		},
+		"sprite": { 
+			"main" : [
+				"idle00",
+				"idle01",
+				"idle02",
+				"idle03",
+				"idle04",
+				"idle05",
+				"idle06",
+				"idle07",
+				"idle08",
+				"idle09",
+				"idle10",
+				"idle11",
+				"idle12",
+				"idle13",
+				"idle14",
+				"idle15",
+				"idle16",
+				"idle17",
+				"idle18",
+				"idle19",
+				"idle20",
+				"run00",
+				"run01",
+				"run02",
+				"run03",
+				"run04",
+				"run05",
+				"run06",
+				"run07",
+				"run08",
+				"run09",
+				"jump"
+			]
+		},
+		"event": {}
+	},
+	"animations": {
+		"idle": {
+			"sprite": {
+				"main": {
+					"frame": [
+						{ "time": 0.000, "value": "idle00" },
+						{ "time": 0.033, "value": "idle01" },
+						{ "time": 0.066, "value": "idle02" },
+						{ "time": 0.100, "value": "idle03" },
+						{ "time": 0.133, "value": "idle04" },
+						{ "time": 0.166, "value": "idle05" },
+						{ "time": 0.200, "value": "idle06" },
+						{ "time": 0.233, "value": "idle07" },
+						{ "time": 0.200, "value": "idle08" },
+						{ "time": 0.333, "value": "idle09" },
+						{ "time": 0.466, "value": "idle10" },
+						{ "time": 0.500, "value": "idle11" },
+						{ "time": 0.533, "value": "idle12" },
+						{ "time": 0.566, "value": "idle13" },
+						{ "time": 0.600, "value": "idle14" },
+						{ "time": 0.633, "value": "idle15" },
+						{ "time": 0.666, "value": "idle16" },
+						{ "time": 0.700, "value": "idle17" },
+						{ "time": 0.733, "value": "idle18" },
+						{ "time": 0.766, "value": "idle19" },
+						{ "time": 0.800, "value": "idle20" }
+					]
+				}
+			}
+		},
+		"run": {
+			"sprite": {
+				"main": {
+					"frame": [
+						{ "time": 0.000, "value": "run00" },
+						{ "time": 0.033, "value": "run01" },
+						{ "time": 0.066, "value": "run02" },
+						{ "time": 0.100, "value": "run03" },
+						{ "time": 0.133, "value": "run04" },
+						{ "time": 0.166, "value": "run05" },
+						{ "time": 0.200, "value": "run06" },
+						{ "time": 0.233, "value": "run07" },
+						{ "time": 0.266, "value": "run08" },
+						{ "time": 0.300, "value": "run09" }
+					]
+				}
+			}
+		},
+		"jump": {
+			"sprite": {
+				"main": {
+					"frame": [
+						{ "time": 0.000, "value": "jump" },
+						{ "time": 0.166, "value": "jump" }
+					]
+				}
+			},
+			"bone": {
+				"main": {
+					"rotation": [
+						{ "time": 0.000, "value": 0 },
+						{ "time": 0.133333332, "value": -180 },
+						{ "time": 0.133333333, "value": -181 },
+						{ "time": 0.166, "value": -356 }
+					]
+				}
+			}
+		}
+	}
+}

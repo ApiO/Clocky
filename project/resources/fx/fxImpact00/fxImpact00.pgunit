@@ -1,0 +1,39 @@
+{
+	"nodes": {
+		"root" : {},
+		"main" : { 
+			"parent": "root"
+		}
+	},
+	"sprites" : {
+		"impact" : {
+			"node" : "main",
+			"template" : "fx/fxImpact00/fxImpact00",
+			"scale" : [0.5, 0.5],
+			"order" : 0
+		}
+	},
+	"animations" : {
+		"set": "fx/fxImpact00/fxImpact00",
+		"bones": {
+			"main": "main"
+		},
+		"sprites": {
+			"impact": {
+				"track": "main",
+				"frames": {
+					"impact00": "impact00",
+					"impact01": "impact01",
+					"impact02": "impact02",
+					"impact03": "impact03",
+					"impact04": "impact04",
+					"impact05": "impact05",
+					"impact06": "impact06",
+					"impact07": "impact07",
+					"impact08": "impact08",
+					"impact09": "impact09"
+				}
+			}
+		}
+	}
+}

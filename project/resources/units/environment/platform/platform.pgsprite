@@ -1,0 +1,8 @@
+{
+	"setup_frame" : "f0",
+	"frames" : {
+		"f0" : {
+			"texture" : "units/environment/platform/platform"
+		}
+	}
+}

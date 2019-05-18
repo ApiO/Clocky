@@ -1,0 +1,10 @@
+{
+	"setup_frame" : "f0",
+	"blend_mode" : "multiply",
+	"frames" : {
+		"f0" : {
+			"texture" : "backgrounds/normal_bg",
+			"color": [200, 255, 200, 51]
+		}
+	}
+}

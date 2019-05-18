@@ -1,0 +1,10 @@
+{
+	"template" : "keyframed",
+	"shapes" : {
+		"dash_sphere" : {
+			"template" : "dash_sensor",
+			"material" : "solid",
+			"shape" : "units/clocky/dash_sphere"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+body{
+	border: 1px solid olive !important;
+}
+
+#holder { text-align: center; padding-top:10%; height: 99%;}
+#holder.hover p { color:white !important; }
+
+#config {
+	height: 100%;
+	margin: 0;
+}
+
+#units-container {
+	padding-bottom : 148px;
+}
+
+#config-bottom {
+	position: fixed;
+  	bottom: 22px;
+  	left: 1px;
+  	padding : 10px 20px;
+  	background-color:#222222;
+}
+
+#units .checkbox {
+	text-align:center;
+	width: 100%;
+}
+
+.subheader-link {
+	cursor: pointer;
+	text-decoration: underline;
+	padding-bottom:12px;
+}

@@ -1,0 +1,6 @@
+{
+	"file": "sfx/punch.wav",
+	"compression": "PCM",
+	"bus": "sfx",
+	"range": 640
+}

@@ -1,0 +1,20 @@
+{
+	"nodes" : {
+		"root" : {}
+	},
+	"actors" : {
+		"hitbox" : {
+			"node" : "root",
+			"actor" : "units/aristobots/flybot/flybot_hitbox",
+			"translation" : [0, 50]
+		}
+	},
+	"sprites" : {
+		"bot" : {
+			"node" : "root",
+			"template" : "units/aristobots/flybot/flybot",
+			"translation" : [0, 40],
+			"order" : 0
+		}
+	}
+}

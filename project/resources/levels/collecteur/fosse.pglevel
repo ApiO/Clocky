@@ -1,0 +1,234 @@
+{
+	"layers" : [
+		{
+			"name" : "Default",
+			"z" : 0.000000,
+			"visible" : true
+		},{
+			"name" : "Background-1",
+			"z" : -2000.000000,
+			"visible" : true
+		},{
+			"name" : "Background-2",
+			"z" : -7000.000000,
+			"visible" : true
+		},{
+			"name" : "Skybox",
+			"z" : 0.000000,
+			"visible" : true
+		}],
+	"units" : [
+		{
+			"name" : "units/plateforms/plateform00",
+			"translation" : [895.595032, 207.441589, 0.000000],
+			"rotation" : [0.000000, 0.000000, 8.088837],
+			"scale" : [2.000000, 1.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform01",
+			"translation" : [-60.946152, -114.532936, 0.000000],
+			"rotation" : [0.000000, 0.000000, 7.485642],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform02",
+			"translation" : [-494.837311, 222.778778, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform00",
+			"translation" : [227.337967, -51.897667, 0.000000],
+			"rotation" : [0.000000, 0.000000, 8.320918],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform01",
+			"translation" : [-125.657112, 231.368164, -0.002258],
+			"rotation" : [0.000000, 180.000000, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform02",
+			"translation" : [1555.905518, 302.710236, 0.000000],
+			"rotation" : [0.000000, 180.000000, 0.000000],
+			"scale" : [1.500000, 0.500000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [102.373108, 832.092712, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform01",
+			"translation" : [871.292664, 746.523865, 0.000000],
+			"rotation" : [0.000000, 0.000000, -1.829433],
+			"scale" : [2.000000, 1.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1347.486816, 1019.384216, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform01",
+			"translation" : [275.135437, 666.201721, 0.000000],
+			"rotation" : [0.000000, 0.000000, 20.185179],
+			"scale" : [2.000000, 1.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform01",
+			"translation" : [-131.866455, 545.918884, 0.000000],
+			"scale" : [0.900000, 0.900000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [1291.537354, 309.835327, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [1478.375244, 321.158844, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform01",
+			"translation" : [1948.066772, 490.142883, 0.000305],
+			"rotation" : [0.000000, 0.000000, 197.466156],
+			"scale" : [1.000000, 0.750000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform02",
+			"translation" : [1465.027344, 721.816040, 0.000000],
+			"scale" : [1.500000, 1.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [216.246277, 171.328308, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [358.587769, 469.496460, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [701.705811, 409.563141, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform00",
+			"translation" : [2413.356689, 554.777954, 0.000000],
+			"rotation" : [0.000000, 0.000000, 6.482447],
+			"scale" : [2.000000, 1.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform00",
+			"translation" : [2168.367676, 198.231613, 0.000000],
+			"rotation" : [0.000000, 180.000000, 166.606400],
+			"scale" : [1.500000, 1.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-405.284546, 397.999939, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [765.129150, 243.038055, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [1270.703613, 785.553772, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [2153.616455, 574.747681, 0.000122],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [2125.610840, 224.437500, -0.000122],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [2467.997070, 617.013184, 0.000122],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform00",
+			"translation" : [3000.078613, 137.763733, 0.000000],
+			"scale" : [3.000000, 1.000000],
+			"layer" : 0
+		},{
+			"name" : "units/plateforms/plateform02",
+			"translation" : [3735.078125, 539.831970, 0.000000],
+			"rotation" : [0.000000, 180.000000, 45.000000],
+			"scale" : [2.000000, 1.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1723.677124, 830.182617, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1212.796021, 1239.897461, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [915.691650, 1123.756592, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1069.645874, 948.194763, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1450.479736, 1345.234375, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1218.198120, 1461.375366, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [999.421082, 1385.748535, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1515.114746, 1614.058594, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1650.162109, 1252.131348, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1466.497559, 1165.700928, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1190.255737, 1766.489502, 0.000000],
+			"layer" : 0
+		},{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [512.317566, 1369.450195, 0.000000],
+			"scale" : [5.000000, 5.000000],
+			"layer" : 0
+		}],
+	"sprites" : [
+		{
+			"name" : "backgrounds/props",
+			"translation" : [2230.608643, 1451.127563, -2000.000000],
+			"scale" : [4.399998, 4.399998],
+			"layer" : 1
+		},{
+			"name" : "backgrounds/props",
+			"translation" : [1439.190552, 1908.284424, -2000.000000],
+			"rotation" : [0.000000, 0.000000, 1.285331],
+			"scale" : [2.899999, 2.899999],
+			"layer" : 1
+		},{
+			"name" : "backgrounds/props",
+			"translation" : [3.598022, 2112.521729, -2000.000000],
+			"scale" : [3.199999, 3.199999],
+			"layer" : 1
+		},{
+			"name" : "backgrounds/props",
+			"translation" : [439.775879, 2098.142090, -2000.000000],
+			"rotation" : [0.000000, 0.000000, 33.242634],
+			"scale" : [2.500000, 2.500000],
+			"layer" : 1
+		},{
+			"name" : "backgrounds/props",
+			"translation" : [-893.591125, 1193.047119, -2000.000000],
+			"scale" : [5.999997, 5.999997],
+			"layer" : 1
+		}]
+}

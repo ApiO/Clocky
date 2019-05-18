@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" href="../common/css/metro-bootstrap.css">
+  	<link rel="stylesheet" href="../common/css/quasar.css">
+  	<link rel="stylesheet" href="default.css">
+    <script src="../common/js/jquery.min.js"></script>
+    <script src="../common/js/jquery.widget.min.js"></script>
+    <script src="../common/js/metro.min.js"></script>
+	<script src="../common/js/jquery.dataTables.js"></script>
+	<script src="default.js"></script>
+    <title>Content Browser</title>
+  </head>
+  <body class="metro">
+  	<nav class="navigation-bar dark">
+	    <nav class="navigation-bar-content">
+	        <a class="element" href="#">CONTENT BROWSER</a>
+	        <a class="element place-right" href="#" id="win-close"><span class="icon-cancel-2"></span></a>
+	        <span class="element-divider place-right"></span>
+	        <a class="element place-right" href="#" id="win-maximize"><span class="icon-window"></span></a>
+	        <span class="element-divider place-right"></span>
+	        <a class="element place-right" href="#" id="win-minimize"><span class="icon-minus-2"></span></a>
+	        <span class="element-divider place-right"></span>
+	    </nav>
+	</nav>
+	
+	<div class="content">
+		<button id="update_resources"  class="bg-custom-gray fg-custom-white"><i class="icon-loop on-left"></i>Refresh</button>
+		<div class="indent-top">
+			<table id="resources_table" class="display" cellspacing="0" width="100%"></table>
+		</div>
+	</div>
+	
+	<div class="status-bar bg-steel">
+		<span>Ready</span>
+	</div>
+    <script>
+    	var gui 	= require('nw.gui');
+    	var win 	= gui.Window.get();
+		var fs 	= require('fs');
+    	var sql 	= require('../common/node_modules/node-sqlite-purejs');
+		var open= require('../common/node_modules/open');
+		var source_path = null;
+		var data_path    = null;
+			
+		$(document).ready(function() 
+		{	
+			/* events	*/
+			
+			$("#win-close").click(function() { win.close(true); });			
+			$("#win-maximize").click(function() { win.maximize(); });			
+			$("#win-minimize").click(function() { win.minimize(); });
+						
+			document.addEventListener("keyup", function(event) {
+				switch(event.keyCode){
+				case 123: // F12
+					win.showDevTools();
+					event.preventDefault();
+					event.stopPropagation();
+					return false;
+				case 116: // F5
+					win.reload();
+					event.preventDefault();
+					event.stopPropagation();
+					return false;
+				default:
+					return true;
+				}
+			});
+			
+			source_path = gui.App.argv[0];
+			data_path    = gui.App.argv[1];
+			
+			//----------------------------------------
+						
+			$("#update_resources").click(update_resources);
+			
+			update_resources();
+		});	
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+	"template" : "static",
+	"shapes" : {
+		"tsouintsouin" : {
+			"template" : "ground",
+			"material" : "solid",
+			"shape" : "units/environment/ground/ground"
+		}
+	},
+	"sprites" : {
+		"bot" : {
+			"node" : "root",
+			"template" : "units/environment/ground/ground",
+			"translation" : [0, 30],
+			"order" : 0
+		}
+	}
+}

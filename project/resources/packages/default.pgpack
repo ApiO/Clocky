@@ -1,0 +1,7 @@
+{
+	"fonts"  : ["fonts/consolas.24/consolas.24"],
+	"levels" : ["levels/default/default", "levels/maquette"],
+	"units"  : ["units/aristobots/walker/walker", "units/clocky/clocky", "units/bullet/bullet", "fx/fxImpact00/fxImpact00"],
+	"sounds" : ["sfx/dash", "sfx/punch"],
+	"sprites": ["fx/front_decal", "fx/noise", "backgrounds/normal_bg"]
+}

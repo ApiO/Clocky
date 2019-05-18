@@ -1,0 +1,8 @@
+{
+  "setup_frame": "default",
+  "frames": {
+    "default": {
+      "texture": "units/plateforms/atlas#plateform00"
+    }
+  }
+}

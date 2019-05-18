@@ -1,0 +1,16 @@
+{
+	"blend_mode" : "additive",
+	"setup_frame" : "impact00",
+	"frames" : {
+		"impact00": { "texture": "fx/fxImpact00/fxImpact00#impact00" },
+		"impact01": { "texture": "fx/fxImpact00/fxImpact00#impact01" }, 
+		"impact02": { "texture": "fx/fxImpact00/fxImpact00#impact02" }, 
+		"impact03": { "texture": "fx/fxImpact00/fxImpact00#impact03" }, 
+		"impact04": { "texture": "fx/fxImpact00/fxImpact00#impact04" }, 
+		"impact05": { "texture": "fx/fxImpact00/fxImpact00#impact05" }, 
+		"impact06": { "texture": "fx/fxImpact00/fxImpact00#impact06" }, 
+		"impact07": { "texture": "fx/fxImpact00/fxImpact00#impact07" }, 
+		"impact08": { "texture": "fx/fxImpact00/fxImpact00#impact08" }, 
+		"impact09": { "texture": "fx/fxImpact00/fxImpact00#impact09" }
+	}
+}

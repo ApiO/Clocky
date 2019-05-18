@@ -1,0 +1,94 @@
+{
+	"nodes": {
+		"root" : {},
+		"main" : { 
+			"parent": "root", 
+			"translation" : [-14, 56] 
+		}
+	},
+	"actors": {
+		"dash_sphere" : {
+			"node" : "root",
+			"actor" : "units/clocky/dash_sphere",
+			"translation" : [0, 40]
+		},
+		"hitbox" : {
+			"node" : "root",
+			"actor" : "units/clocky/hitbox",
+			"translation" : [0, 40]
+		},
+		"box" : {
+			"node" : "root",
+			"actor" : "units/clocky/box",
+			"translation" : [0, 40]
+		}
+	},
+	"sprites" : {
+		"overlay" : {
+			"node" : "main",
+			"template" : "units/clocky/clocky_overlay",
+			"order" : 0
+		},
+		"bot" : {
+			"node" : "main",
+			"template" : "units/clocky/clocky",
+			"scale" : [0.5, 0.5],
+			"order" : 1
+		}
+	},
+	"movers" : {
+		"standing" : {
+			"height" : 40,
+			"radius" : 20,
+			"collision_filter": "mover",
+			"slope_limit": 45,
+			"step_offset": 50,
+			"offset": [0,0]
+		}
+	},
+	"animations" : {
+		"set": "units/clocky/clocky",
+		"bones": {
+			"main": "main"
+		},
+		"sprites": {
+			"bot": {
+				"track": "main",
+				"frames": {
+					"idle00": "idle00",
+					"idle01": "idle01",
+					"idle02": "idle02",
+					"idle03": "idle03",
+					"idle04": "idle04",
+					"idle05": "idle05",
+					"idle06": "idle06",
+					"idle07": "idle07",
+					"idle08": "idle08",
+					"idle09": "idle09",
+					"idle10": "idle10",
+					"idle11": "idle11",
+					"idle12": "idle12",
+					"idle13": "idle13",
+					"idle14": "idle14",
+					"idle15": "idle15",
+					"idle16": "idle16",
+					"idle17": "idle17",
+					"idle20": "idle20",
+					"idle18": "idle18",
+					"idle19": "idle19",
+					"run00" : "run00",
+					"run01" : "run01",
+					"run02" : "run02",
+					"run03" : "run03",
+					"run04" : "run04",
+					"run05" : "run05",
+					"run06" : "run06",
+					"run07" : "run07",
+					"run08" : "run08",
+					"run09" : "run09",
+					"jump"  : "jump"
+				}
+			}
+		}
+	}
+}

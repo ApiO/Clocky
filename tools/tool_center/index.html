@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" href="../common/css/metro-bootstrap.css">
+  	<link rel="stylesheet" href="../common/css/quasar.css">
+  	<link rel="stylesheet" href="default.css">
+    <script src="../common/js/jquery.min.js"></script>
+    <script src="../common/js/jquery.widget.min.js"></script>
+    <script src="../common/js/metro.min.js"></script>
+
+    <title>Tool center</title>
+  </head>
+  <body class="metro tool_center">
+  	
+	<div class="content content_body" >
+		<div class="content" >
+		
+			<h1 id="project_name"></h1>	
+			
+			<div id="run" class="tile bg-green">
+				<div class="tile-content icon">
+					<i class="icon-play"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Run Project</span>
+				</div>
+			</div>
+
+			<div id="console" class="tile bg-teal">
+				<div class="tile-content icon">
+					<i class="icon-console"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Console</span>
+				</div>
+			</div>
+			 
+			<div id="level_editor" class="tile double bg-mauve">
+				<div class="tile-content icon">
+					<i class="icon-camera-3"></i>
+				</div>
+				<div class="brand">
+					<span class="label fg-white">Level Editor</span>
+				</div>
+			</div>
+
+			<div class="tile double bg-lightBlue">
+				<div class="tile-content icon">
+					<i class="icon-fire"></i>
+				</div>
+				<div class="brand bg-darkCyan">
+					<span class="label fg-white">Particle Editor</span>
+					<span class="badge bg-darkBlue badge attention"></span>
+				</div>
+			</div>	
+
+			<div id="spine_importer"  class="tile double bg-darkCobalt">
+				<div class="tile-content icon">
+					<i class="icon-accessibility"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Spine importer</span>
+				</div>
+			</div>	
+
+			<div id="physics_manager"  class="tile double bg-olive">
+				<div class="tile-content icon">
+					<i class="icon-cube"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Physics Manager</span>
+				</div>
+			</div>
+
+			<div id="content_browser" class="tile double bg-steel">
+				<div class="tile-content icon">
+					<i class="icon-cabinet"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Content Browser</span>
+				</div>
+			</div>
+
+			<div id="search_string"  class="tile double bg-gray">
+				<div class="tile-content icon">
+					<i class="icon-paragraph-left"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Search string</span>
+				</div>
+			</div>
+
+			<div id="linkage_checker" class="tile double bg-lightOrange">
+				<div class="tile-content icon">
+					<i class="icon-link-2"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Linkage Checker</span>
+				</div>
+			</div>
+					 
+			<div class="tile double bg-darkGreen">
+				<div class="tile-content icon">
+					<i class="icon-pictures"></i>
+				</div>
+				<div class="brand bg-olive">
+					<span class="label fg-white">Texture Manager</span>
+					<span class="badge bg-darkEmerald badge attention"></span>
+				</div>
+			</div>
+
+			<div class="tile double bg-darkPink">
+				<div class="tile-content icon">
+					<i class="icon-meter-fast"></i>
+				</div>
+				<div class="brand bg-mauve">
+					<span class="label fg-white">Profiler</span>
+					<span class="badge bg-darkViolet badge attention"></span>
+				</div>
+			</div>	
+					
+			<div id="data_folder"  class="tile bg-taupe">
+				<div class="tile-content icon">
+					<i class="icon-folder"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Data</span>
+				</div>
+			</div>
+
+			<div id="resources_folder"  class="tile bg-taupe">
+				<div class="tile-content icon">
+					<i class="icon-folder"></i>
+				</div>
+				<div class="tile-status">
+					<span class="name">Resources</span>
+				</div>
+			</div>				
+		</div>			
+	</div>
+	
+  	<nav class="navigation-bar">
+	    <nav class="navigation-bar-content">
+		
+	        <a class="element dropdown-toggle" href="#">TOOL CENTER</a>
+		<!--
+            <ul class="element dropdown-menu" data-role="dropdown" >
+                <li><a href="#">Windows 8</a></li>
+                <li><a href="#">Skype</a></li>
+                <li><a href="#">Internet Explorer</a></li>
+                <li><a href="#">Office</a></li>
+            </ul>
+			-->
+			
+			
+	        <a class="element place-right" href="#" id="win-close"><span class="icon-cancel-2"></span></a>
+	        <span class="element-divider place-right"></span>
+	        <a class="element place-right" href="#" id="win-maximize"><span class="icon-window"></span></a>
+	        <span class="element-divider place-right"></span>
+	        <a class="element place-right" href="#" id="win-minimize"><span class="icon-minus-2"></span></a>
+	        <span class="element-divider place-right"></span>
+	    </nav>
+	</nav>
+	
+	<div class="status-bar tool_center-bar">
+		<span>Ready</span>
+	</div>
+	
+    <script>		
+    	var gui  	= require('nw.gui');
+    	var win 	= gui.Window.get();
+		var fs     	= require('fs');
+		var cp    	= require('child_process');
+		var open = require('../common/node_modules/open');
+		var config_path   = gui.App.argv[0];
+		var source_path 	= null;
+		var data_path 	= null;
+		var level_editor   = null;
+		var console        	= null;
+		
+		$(document).ready(function() 
+		{		
+			/* events	*/
+			
+			$("#win-close").click(function() { win.close(true); });			
+			$("#win-maximize").click(function() { win.maximize(); });			
+			$("#win-minimize").click(function() { win.minimize(); });
+						
+			document.addEventListener("keyup", function(event) {
+				switch(event.keyCode){
+				case 123: // F12
+					win.showDevTools();
+					event.preventDefault();
+					event.stopPropagation();
+					return false;
+				case 116: // F5
+					win.reload();
+					event.preventDefault();
+					event.stopPropagation();
+					return false;
+				default:
+					return true;
+				}
+			});
+			
+			/* loads config */
+			if(config_path == undefined) config_path = "config.json";
+			if(!fs.existsSync(config_path)) {
+				alert("Config file not found: " + config_path);
+				return;
+			}
+			
+			var file = fs.readFileSync(config_path, {encoding: 'utf-8'});
+			var config		= JSON.parse(file);
+			source_path	= config.source_path;
+			data_path		= config.data_path;
+			level_editor		= config.level_editor;
+			console			= config.console;
+			game_path 	= config.game_path;
+			
+			$('#project_name').text(config.project_name);
+			
+			$("#content_browser").click(function() { cp.execFile("..\\common\\nw.exe", ["..\\content_browser", source_path, data_path]); });
+			
+			$("#linkage_checker").click(function() { cp.execFile("..\\common\\nw.exe", ["..\\linkage_checker", source_path, data_path]); });
+			
+			$("#spine_importer").click(function() { cp.execFile("..\\common\\nw.exe", ["..\\spine_importer", source_path, data_path]); });
+
+			$("#physics_manager").click(function() { cp.execFile("..\\common\\nw.exe", ["..\\physics_manager", source_path, data_path]); });
+			
+			$("#search_string").click(function() { cp.execFile("..\\common\\nw.exe", ["..\\search_string", source_path, data_path]); });
+			
+			$("#run").click(function() {
+				cp.execFile(game_path, [data_path], null, function(error, stdout, stderr){
+					if(!error) return;
+					alert(error + game_path);
+				});
+			});
+			
+			$("#level_editor").click(function() { 
+				cp.execFile(level_editor, [source_path, data_path], null, function(error, stdout, stderr){
+					if(!error) return;
+					alert(error);
+					open("log.txt");
+				});
+			});
+			
+			$("#console").click(function() { cp.execFile(console, null, null, function(error, stdout, stderr){if(error) alert(error);}); });
+			
+			$("#data_folder").click(function() { open(data_path) });
+			
+			$("#resources_folder").click(function() { open(source_path) });
+			
+		});
+    </script>
+  </body>
+</html>

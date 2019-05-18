@@ -1,0 +1,19 @@
+{
+	"nodes" : {
+		"root" : {}
+	},
+	"actors" : {
+		"ground" : {
+			"node" : "root",
+			"actor" : "units/environment/ground/ground"
+		}
+	},
+	"sprites" : {
+		"bot" : {
+			"node" : "root",
+			"template" : "units/environment/ground/ground",
+			"translation" : [0, 0],
+			"order" : 0
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"template" : "bullet",
+	"shapes" : {
+		"hitbox" : {
+			"template" : "bullet",
+			"material" : "solid",
+			"shape" : "units/bullet/bullet_hitbox"
+		}
+	}
+}

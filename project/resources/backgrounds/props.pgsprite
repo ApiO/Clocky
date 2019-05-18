@@ -1,0 +1,10 @@
+{
+	"setup_frame" : "f0",
+	"blend_mode" : "multiply",
+	"frames" : {
+		"f0" : {
+			"texture" : "backgrounds/props",
+			"color": [0, 0, 255, 80]
+		}
+	}
+}

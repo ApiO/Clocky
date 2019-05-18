@@ -1,0 +1,41 @@
+{
+  "template": "static",
+  "shapes": {
+    "shape_0": {
+      "template": "platform",
+      "material": "solid",
+      "shape": "units/plateforms/plateform02_0",
+      "translation": [
+        -245,
+        -65
+      ]
+    },
+    "shape_1": {
+      "template": "platform",
+      "material": "solid",
+      "shape": "units/plateforms/plateform02_1",
+      "translation": [
+        -245,
+        -65
+      ]
+    },
+    "shape_2": {
+      "template": "platform",
+      "material": "solid",
+      "shape": "units/plateforms/plateform02_2",
+      "translation": [
+        -245,
+        -65
+      ]
+    },
+    "shape_3": {
+      "template": "platform",
+      "material": "solid",
+      "shape": "units/plateforms/plateform02_3",
+      "translation": [
+        -245,
+        -65
+      ]
+    }
+  }
+}

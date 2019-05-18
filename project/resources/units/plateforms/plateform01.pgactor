@@ -1,0 +1,32 @@
+{
+  "template": "static",
+  "shapes": {
+    "shape_0": {
+      "template": "platform",
+      "material": "solid",
+      "shape": "units/plateforms/plateform01_0",
+      "translation": [
+        -177.5,
+        -50.5
+      ]
+    },
+    "shape_1": {
+      "template": "platform",
+      "material": "solid",
+      "shape": "units/plateforms/plateform01_1",
+      "translation": [
+        -177.5,
+        -50.5
+      ]
+    },
+    "shape_2": {
+      "template": "platform",
+      "material": "solid",
+      "shape": "units/plateforms/plateform01_2",
+      "translation": [
+        -177.5,
+        -50.5
+      ]
+    }
+  }
+}

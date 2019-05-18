@@ -1,0 +1,30 @@
+{
+	"nodes" : {
+		"root" : {}
+	},
+	"sprites" : {
+		"bot" : {
+			"node" : "root",
+			"template" : "units/aristobots/walker/walker",
+			"translation" : [0, 50],
+			"order" : 0
+		}
+	},
+	"actors" : {
+		"hitbox" : {
+			"node" : "root",
+			"actor" : "units/aristobots/walker/walker_hitbox",
+			"translation" : [0, 40]
+		}
+	},
+	"movers" : {
+		"standing" : {
+			"height" : 40,
+			"radius" : 20,
+			"collision_filter": "mover",
+			"slope_limit": 45,
+			"step_offset": 50,
+			"offset": [0,0]
+		}
+	}
+}

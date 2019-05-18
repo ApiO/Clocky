@@ -1,0 +1,42 @@
+{
+	"tracks": {
+		"bone": {
+			"main": {}
+		},
+		"sprite": { 
+			"main" : [
+				"impact00",
+				"impact01",
+				"impact02",
+				"impact03",
+				"impact04",
+				"impact05",
+				"impact06",
+				"impact07",
+				"impact08",
+				"impact09"
+			]
+		},
+		"event": {}
+	},
+	"animations": {
+		"impact": {
+			"sprite": {
+				"main": {
+					"frame": [
+						{ "time": 0.000, "value": "impact00" },
+						{ "time": 0.033, "value": "impact01" },
+						{ "time": 0.066, "value": "impact02" },
+						{ "time": 0.100, "value": "impact03" },
+						{ "time": 0.133, "value": "impact04" },
+						{ "time": 0.166, "value": "impact05" },
+						{ "time": 0.200, "value": "impact06" },
+						{ "time": 0.233, "value": "impact07" },
+						{ "time": 0.200, "value": "impact08" },
+						{ "time": 0.333, "value": "impact09" }
+					]
+				}
+			}
+		}
+	}
+}

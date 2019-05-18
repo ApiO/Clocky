@@ -1,0 +1,8 @@
+{
+	"project_name" : "Clocky",
+	"console" : "E:/Console2/Console.exe",
+	"level_editor" : "E:/[Proto_Gecko]/pgtech/platform/win32/build/Debug/level_editor.exe",
+	"source_path" : "E:/[Proto_Gecko]/Clocky/resources",
+	"data_path" :    "E:/[Proto_Gecko]/Clocky/data",
+	"game_path": "E:/[Proto_Gecko]/Clocky/code/build/Debug/clocky.exe"
+}

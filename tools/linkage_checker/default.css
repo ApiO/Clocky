@@ -1,0 +1,71 @@
+body{
+	border: 1px solid #C29008 !important;
+}
+/* listview */
+.metro .listview-dark {
+	position: relative;
+	display: block;
+}
+.metro .listview-dark .list-item {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px #3F3F46 solid;
+  padding: 2px 0;
+  margin-bottom: 0;
+}
+.metro .listview-dark .list-item .list-content {
+  margin: 2px 0;
+  padding: 2px 20px;
+  font-size: 16px;
+  color: inherit;
+  border-left: 3px transparent solid;
+}
+.metro .listview-dark .list-item .list-content .list-title,
+.metro .listview-dark .list-item .list-content .list-subtitle,
+.metro .listview-dark .list-item .list-content .list-description {
+  width: 100%;
+  display: block;
+  color: inherit;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.metro .listview-dark .list-item .list-content .list-title {
+  font-size: 17px;
+  line-height: 22px;
+}
+.metro .listview-dark .list-item .list-content .list-subtitle {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+}
+.metro .listview-dark .dep{
+	color:red !important;
+}
+.metro .listview-dark .ref{
+	color:orange !important;
+}
+.metro .listview-dark .list-item .list-content .list-description {
+	padding-left:10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  font-style:italic;
+  text-decoration:underline;
+}
+
+.metro .listview-dark .list-item .marked .list-content {
+  border-left: 3px #FA6800 solid;
+}
+.metro .listview-dark .list-item:hover{
+  background-color: #2D2D30;
+  outline: 1px #3F3F46 dotted;
+}
+.metro .listview-dark .list-item:hover {
+  background-color: #2D2D30;
+  outline: none;
+}
+.metro .listview-dark .list-item:hover .list-content {
+  border-left: 3px #FA6800 solid;
+}

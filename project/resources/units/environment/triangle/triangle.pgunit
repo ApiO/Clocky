@@ -1,0 +1,19 @@
+{
+	"nodes" : {
+		"root" : {}
+	},
+	"actors" : {
+		"ground" : {
+			"node" : "root",
+			"actor" : "units/environment/triangle/triangle"
+		}
+	},
+	"sprites" : {
+		"bot" : {
+			"node" : "root",
+			"template" : "units/environment/triangle/triangle",
+			"translation" : [135, 135],
+			"order" : 0
+		}
+	}
+}

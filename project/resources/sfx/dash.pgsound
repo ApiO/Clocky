@@ -1,0 +1,6 @@
+{
+	"file": "sfx/dash.wav",
+	"compression": "PCM",
+	"bus": "sfx",
+	"range": 640
+}

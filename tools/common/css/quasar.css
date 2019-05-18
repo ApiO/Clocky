@@ -1,0 +1,117 @@
+html {
+	height: 100%;
+}
+
+body {
+	padding: 0;
+	color: #C8C8C8;
+	background-color: #252526;
+	border: solid 1px gray;
+	height: 100%;
+	overflow: hidden;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+}
+
+.metro label,
+.metro h1, 
+.metro h2, 
+.metro h3, 
+.metro h4,
+.metro h5,
+.metro p,
+.metro a{
+	color: #C8C8C8 !important;
+}
+
+.content{
+	position: absolute;
+	top: 45px;
+	bottom: 22px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 1px;
+	padding: 10px 20px 10px 20px;
+	width: 100%;
+}
+
+.status-bar{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 22px;
+	color: white;
+	padding: 1px 0 0 4px;
+}
+
+nav {
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+}
+
+nav .element {
+	-webkit-app-region: no-drag;
+}
+
+.navigation-bar{
+	background-color: #2D2D30 !important;
+}
+
+.metro input,
+.metro select {
+	background-color: #2D2D30 !important;
+	color: #C8C8C8 !important;
+	border: 1px #3F3F46 solid !important;
+}
+
+.metro .underline{
+	 text-decoration : underline;
+}
+
+.metro .italic{
+	font-style : italic;
+}
+
+.metro .smaller {
+	font-size:90%;
+}
+
+.metro .indent1{
+	margin-left:16px;
+}
+
+.metro .indent-top{
+	margin-top:20px !important;
+}
+
+.metro div .frames,
+.metro li a {
+	border-color: #3F3F46 !important;
+	color: #C8C8C8 !important;
+}
+
+.metro li a {
+	background-color: #2D2D30 !important;
+}
+
+.metro div .frames {
+	background-color: #252526 !important;
+}
+
+.metro li.active a {
+	background-color: #3F3F46;
+}
+
+.metro .bg-custom-gray{
+	background-color: #3F3F46;
+}
+
+.metro .fg-custom-white{
+	color: #C8C8C8;
+}
+
+.metro .title{
+	font-size:2.0em;
+	padding-bottom:20px;
+	display:block;
+}

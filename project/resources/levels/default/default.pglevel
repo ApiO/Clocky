@@ -1,0 +1,225 @@
+{
+	"units" : [
+		{
+			"name" : "units/environment/ground/ground",
+			"translation" : [0.000, 0.000, 0.000]
+		},		{
+			"name" : "units/environment/triangle/triangle",
+			"translation" : [-135.000, 31.000, 0.000]
+		},		{
+			"name" : "units/environment/platform/platform",
+			"translation" : [-535.000, 270.000, 0.000]
+		},		{
+			"name" : "units/environment/platform/platform",
+			"translation" : [700.000, 380.000, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [0.000, 450.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [-300.000, 351.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [-600.000, 351.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [-890.000, 351.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [-180.000, 81.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [-630.000, 81.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [-1050.000, 81.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [300.000, 461.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [430.000, 461.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [420.000, 81.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [745.000, 81.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [830.000, 81.000, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [1000.000, 461.000, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [850.000, 600.000, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1000.000, 750.000, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [850.000, 900.000, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [1000.000, 1050.000, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [850.000, 1200.000, 0.000]
+		},		{
+			"name" : "units/environment/ground/ground",
+			"translation" : [1600.000, 1700.000, 0.000],
+			"rotation" : [0.0, 0.0, 90.000]
+		},		{
+			"name" : "units/environment/ground/ground",
+			"translation" : [1300.000, 2000.000, 0.000],
+			"rotation" : [0.0, 0.0, 90.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [116.950, 650.259, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [475.867, 846.693, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [388.563, 1198.334, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [138.776, 1103.755, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-135.261, 795.766, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-296.682, 1071.472, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-619.222, 976.892, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-417.938, 884.738, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-893.259, 816.835, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-1021.790, 1003.568, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-316.083, 683.454, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-112.374, 1170.901, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-798.680, 1073.897, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [624.860, 1066.621, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [1117.102, 1329.471, 0.000]
+		},		{
+			"name" : "units/environment/platform/platform",
+			"translation" : [-1455.315, 418.047, 0.000]
+		},		{
+			"name" : "units/environment/platform/platform",
+			"translation" : [870.845, 2172.287, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [1167.750, 2255.546, 0.000]
+		},		{
+			"name" : "units/aristobots/walker/walker",
+			"translation" : [806.735, 2252.006, 0.000]
+		},		{
+			"name" : "units/environment/triangle/triangle",
+			"translation" : [11.799, 1682.182, 0.000]
+		},		{
+			"name" : "units/environment/triangle/triangle",
+			"translation" : [-691.189, 1172.413, 0.000]
+		},		{
+			"name" : "units/environment/ground/ground",
+			"translation" : [-1919.311, -282.502, 0.000]
+		},		{
+			"name" : "units/environment/ground/ground",
+			"translation" : [2650.616, -262.662, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [640.113, 1569.277, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-603.225, 1913.179, 0.000]
+		},		{
+			"name" : "units/environment/platform/platform",
+			"translation" : [2015.720, 1271.670, 0.000]
+		},		{
+			"name" : "units/environment/platform/platform",
+			"translation" : [2028.947, 2839.068, 0.000]
+		},		{
+			"name" : "units/environment/ground/ground",
+			"translation" : [539.321, -271.743, 0.000]
+		},		{
+			"name" : "units/environment/ground/ground",
+			"translation" : [-4829.458, -281.997, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-1211.875, 1126.678, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-1714.501, 1358.151, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-2157.605, 1100.224, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-2541.188, 1404.445, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-2852.022, 1146.519, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-3162.857, 1424.286, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-3473.691, 1172.973, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-2124.538, 1556.556, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-2871.863, 1602.850, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-3665.482, 1576.396, 0.000]
+		},		{
+			"name" : "units/aristobots/flybot/flybot",
+			"translation" : [-3870.501, 1344.924, 0.000]
+		},		{
+			"name" : "units/environment/platform/platform",
+			"translation" : [-4300.749, 1068.057, 0.000]
+		},		{
+			"name" : "units/environment/ground/ground",
+			"translation" : [-2403.415, 1943.784, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [1000.301, 2435.966, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-1671.552, 961.156, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-2518.079, 1721.708, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-2564.374, 875.181, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-3192.657, 961.156, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-3351.380, 1741.549, 0.000]
+		},		{
+			"name" : "units/aristobots/spikejonz/spikejonz",
+			"translation" : [-4118.546, 1635.733, 0.000]
+		}	]
+}

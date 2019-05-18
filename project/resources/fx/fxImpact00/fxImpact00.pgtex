@@ -1,0 +1,15 @@
+{
+	"type" : "ATLAS",
+	"regions" : {
+		"impact00": { "file": "fx/fxImpact00/fxImpact0001.png" }, 
+		"impact01": { "file": "fx/fxImpact00/fxImpact0002.png" }, 
+		"impact02": { "file": "fx/fxImpact00/fxImpact0003.png" }, 
+		"impact03": { "file": "fx/fxImpact00/fxImpact0004.png" }, 
+		"impact04": { "file": "fx/fxImpact00/fxImpact0005.png" }, 
+		"impact05": { "file": "fx/fxImpact00/fxImpact0006.png" }, 
+		"impact06": { "file": "fx/fxImpact00/fxImpact0007.png" }, 
+		"impact07": { "file": "fx/fxImpact00/fxImpact0008.png" }, 
+		"impact08": { "file": "fx/fxImpact00/fxImpact0009.png" }, 
+		"impact09": { "file": "fx/fxImpact00/fxImpact0010.png" }
+	}
+}

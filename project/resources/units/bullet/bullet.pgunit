@@ -1,0 +1,20 @@
+{
+	"nodes" : {
+		"root" : {}
+	},
+	"actors" : {
+		"hitbox" : {
+			"node" : "root",
+			"actor" : "units/bullet/bullet_hitbox",
+			"translation" : [0, 0]
+		}
+	},
+	"sprites" : {
+		"bot" : {
+			"node" : "root",
+			"template" : "units/bullet/bullet",
+			"translation" : [0, 0],
+			"order" : 0
+		}
+	}
+}

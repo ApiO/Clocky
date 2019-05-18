@@ -1,0 +1,8 @@
+{
+	"blend_mode" : "multiply",
+	"setup_frame" : "default",
+	"frames" : {
+		"default": { "texture": "fx/front_decal", "color": [255, 255, 255, 200] }
+
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"template" : "static",
+	"shapes" : {
+		"tsouintsouin" : {
+			"template" : "platform",
+			"material" : "solid",
+			"shape" : "units/environment/platform/platform"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "ATLAS",
+	"regions": {
+		"plateform01": { "file": "units/plateforms/textures/plateform01.png" },
+		"plateform00": { "file": "units/plateforms/textures/plateform00.png" },
+		"plateform02": { "file": "units/plateforms/textures/plateform02.png" }
+	}
+}

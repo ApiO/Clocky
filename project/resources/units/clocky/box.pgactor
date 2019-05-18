@@ -1,0 +1,10 @@
+{
+	"template" : "keyframed",
+	"shapes" : {
+		"hitbox" : {
+			"template" : "player_box",
+			"material" : "solid",
+			"shape" : "units/clocky/hitbox"
+		}
+	}
+}

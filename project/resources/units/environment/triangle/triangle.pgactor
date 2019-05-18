@@ -1,0 +1,10 @@
+{
+	"template" : "static",
+	"shapes" : {
+		"tsouintsouin" : {
+			"template" : "ground",
+			"material" : "solid",
+			"shape" : "units/environment/triangle/triangle"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "root": {}
+  },
+  "sprites": {
+    "main": {
+      "node": "root",
+      "template": "units/plateforms/plateform00",
+      "order": 0
+    }
+  },
+  "actors": {
+    "main": {
+      "node": "root",
+      "actor": "units/plateforms/plateform00"
+    }
+  }
+}

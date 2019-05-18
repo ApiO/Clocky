@@ -1,0 +1,9 @@
+
+
+[2014/08/23 18:47:59] ERROR
+
+[ASSERTION FAILED]
+
+Message:	
+Failed test: glm::determinant(pmat) != 0.0f
+Source:	e:\[proto_gecko]\pgtech\platform\win32\lib_engine\include\engine\matrix.h(:226)

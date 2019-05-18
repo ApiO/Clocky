@@ -1,0 +1,8 @@
+{
+	"buses": {
+		"master" : { "volume": 1.0 },
+		"music"  : { "parent": "master" },
+		"sfx"    : { "parent": "master" },
+		"dialog" : { "parent": "master" }
+	}
+}

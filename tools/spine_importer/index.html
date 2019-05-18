@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" href="../common/css/metro-bootstrap.css">
+  	<link rel="stylesheet" href="../common/css/quasar.css">
+  	<link rel="stylesheet" href="default.css">
+    <script src="../common/js/jquery.min.js"></script>
+    <script src="../common/js/jquery.widget.min.js"></script>
+    <script src="../common/js/metro.min.js"></script>
+	<script src="default.js"></script>
+    <title>Spine importer</title>
+  </head>
+  <body class="metro">
+  	<nav class="navigation-bar dark">
+	    <nav class="navigation-bar-content">
+	        <a class="element" href="#">Spine importer</a>
+	        <a class="element place-right" href="#" id="win-close"><span class="icon-cancel-2"></span></a>
+	        <span class="element-divider place-right"></span>
+	        <a class="element place-right" href="#" id="win-maximize"><span class="icon-window"></span></a>
+	        <span class="element-divider place-right"></span>
+	        <a class="element place-right" href="#" id="win-minimize"><span class="icon-minus-2"></span></a>
+	        <span class="element-divider place-right"></span>
+	    </nav>
+	</nav>
+	
+	<div class="content">	
+	
+		<div id="holder">
+			<p class="header">Drag &amp; Drop</p>
+			<p class="header"><i class="large icon-download"></i></p>
+			<p>Use a Spine export json file</p>
+		    <div id="main_message"></div>
+		</div>
+		
+		<div id="config">		
+			<p class="subheader">Resource informations:</p>
+			<div id="res-container">
+				    <label>Spine file:  <span id="spine_file"/></<span></label>
+				    <label>Name: <input type="text" id="resource_name"/> <small class="comment">Override existing resource</small></label>
+			</div>
+			<div id="config-bottom">
+				<div class="place-right">
+					<button class="large primary" id="submit">Import</button>
+					<button class="large inverse" id="cancel">Cancel</button>
+				</div>
+			</div>
+		    <div id="config_message"></div>
+		</div>
+	</div>
+	
+	<div class="status-bar bg-darkCobalt">
+		<span>Ready</span>
+	</div>
+    <script>
+    	var gui 	= require('nw.gui');
+    	var util 	= require('util');
+    	var win 	= gui.Window.get();
+		
+		var source_path = null;
+		var data_path    = null;
+			
+		$(document).ready(function() 
+		{	
+			/* events	*/
+			
+			$("#win-close").click(function() { win.close(true); });			
+			$("#win-maximize").click(function() { win.maximize(); });			
+			$("#win-minimize").click(function() { win.minimize(); });
+						
+			document.addEventListener("keyup", function(event) {
+				switch(event.keyCode){
+				case 123: // F12
+					win.showDevTools();
+					event.preventDefault();
+					event.stopPropagation();
+					return false;
+				case 116: // F5
+					win.reload();
+					event.preventDefault();
+					event.stopPropagation();
+					return false;
+				default:
+					return true;
+				}
+			});
+			
+			source_path = gui.App.argv[0];
+			data_path    = gui.App.argv[1];
+			
+			//----------------------------------------
+
+			initialize();
+		});	
+    </script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+	"texture" : {
+		"edge_max_size" : 2048,
+		"compression" : "DXT5",
+		"mipmap" : "NONE",
+		"rotate" : true,
+		"trim" : true,
+		"flip" : true
+	}
+}

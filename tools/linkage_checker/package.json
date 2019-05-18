@@ -1,0 +1,20 @@
+{
+	"main" : "index.html",
+	"name" : "Dependency checker",
+	"description" : "Quasar engine Linkage checker",
+	"version" : "0.1.0",
+	"window" : {
+		"title" : "Linkage checker",
+		"icon" : "link.png",
+		"toolbar" : false,
+		"frame" : false,
+		"width" : 750,
+		"height" : 800,
+		"position" : "center",
+		"min_width" : 400,
+		"min_height" : 200
+	},
+	"webkit" : {
+		"plugin" : true
+	}
+}

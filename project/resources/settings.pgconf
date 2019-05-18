@@ -1,0 +1,16 @@
+{
+	"boot" : {
+		"package" : "core/default",
+		"physics" : "core/default",
+		"audio"   : "core/default",
+		"sprite_program"    : "core/shaders/sprite",
+		"primitive_program" : "core/shaders/primitive",
+		"particle_program"  : "core/shaders/particle"
+	},
+	"window" : {
+		"title" : "Clocky",
+		"resolution" : [1280, 720],
+		"resizable": false,
+		"mode" : "WINDOW"
+	}
+}

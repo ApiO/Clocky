@@ -1,0 +1,38 @@
+body{
+	border: 1px solid #00356A !important;
+}
+
+#holder { text-align: center; padding-top:10%; height: 99%;}
+
+#config {
+	margin: 0;
+}
+
+#res-container{
+	margin-top:22px;
+}
+	#res-container label{
+		margin: 10px 0;
+	}
+	
+.comment
+{
+	font-style: italic;
+	color:gray;
+}
+
+#config-bottom {
+	position: fixed;
+  	bottom: 22px;
+  	left: 1px;
+  	padding : 10px 20px;
+  	background-color:#222222;
+}
+
+.metro .text-alert {
+	margin: 0;
+	font-size: smaller;
+}
+.metro input {
+	width: 100%;
+}

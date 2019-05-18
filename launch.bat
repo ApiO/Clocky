@@ -1,0 +1,1 @@
+start tools\common\nw.exe tools\tool_center ..\..\project\tools_config.json

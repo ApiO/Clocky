@@ -1,0 +1,68 @@
+body.metro {
+	background-color: #222222;
+	color: #C8C8C8;
+}
+
+.metro h1, 
+.metro h2, 
+.metro h3, 
+.metro h4,
+.metro h5,
+.metro h6 {
+	color: #FFFFFF;
+}
+
+/* tables */
+
+.metro .example {
+	background-color: #1e1e1e !important;
+	border-color: #666666;
+}
+
+.metro .example:before {
+	color: #666666 !important;
+}
+
+.metro table {
+	background-color: #222222;
+}
+
+.metro table, .metro th, .metro td {
+	border-color: #444444 !important;
+}
+
+.metro thead th {
+	color: #FFFFFF;
+}
+
+.metro .table.striped tbody tr:nth-child(odd) {
+	background-color: #333333;
+}
+
+.metro .table.hovered tbody tr:hover {
+  background-color: rgba(28, 183, 236, 0.1);
+}
+
+/* form */
+
+.metro legend {
+	color: #FFFFFF;
+	border-color: #444444;
+}
+
+.metro input {
+	background-color: #222222 !important; 
+}
+
+.metro ::-webkit-input-placeholder {
+   color: #444444 !important; 
+}
+
+.metro .input-control.text input, 
+.metro .input-control.password input, 
+.metro .input-control.file input, 
+.metro .input-control.email input, 
+.metro .input-control.tel input {
+	border-color: #444444;
+	color: #C8C8C8;
+}

@@ -1,0 +1,10 @@
+{
+	"template" : "keyframed",
+	"shapes" : {
+		"hitbox" : {
+			"template" : "enemy_hitbox",
+			"material" : "solid",
+			"shape" : "units/aristobots/walker/walker_hitbox"
+		}
+	}
+}

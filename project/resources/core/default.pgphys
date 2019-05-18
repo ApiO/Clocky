@@ -1,0 +1,105 @@
+{
+	"ppm": 100,
+
+	"materials" : {
+		"solid" : {
+			"density"     : 1,
+			"friction"    : 1,
+			"restitution" : 0
+		},
+		"bouncy" : {
+			"density" : 1,
+			"friction" : 0.7,
+			"restitution" : 0.8
+		}
+	},
+
+	"actors" : {
+		"static"    : { "dynamic" : false, "kinematic" : false },
+    	"physical"  : { "dynamic" : true,  "kinematic" : false },
+    	"keyframed" : { "dynamic" : true,  "kinematic" : true  },
+    	"bullet"    : { "dynamic" : true,  "kinematic" : false, "disable_gravity": true }
+	},
+
+	"collision_types" : ["ground", "player_hitbox", "enemy_cast", "enemy_hitbox", "bullet", "dash_sensor", "mover_default", "mover_ascending", "corpse", "cast", "player_box"],
+
+	"collision_filters" : {
+		"mover" : {
+			"is" : ["mover_default"],
+			"collides_with": ["ground"]
+		},
+		"mover_ascending" : {
+			"is" : ["mover_ascending"],
+			"collides_with": ["ground"]
+		} ,
+		"ground" : {
+			"is" : ["ground"],
+			"collides_with": ["mover_default", "mover_ascending", "corpse", "cast", "enemy_cast"]
+		},
+		"platform" : {
+			"is": ["ground"],
+			"collides_with": ["player_box", "mover_default", "corpse", "cast", "enemy_cast", "player_hitbox"]
+		},
+		"enemy_hitbox" : {
+			"is" : ["enemy_hitbox"],
+			"collides_with": ["dash_sensor"]
+		},
+		"player_hitbox": {
+			"is" : ["player_hitbox"],
+			"collides_with": ["bullet", "enemy_cast"]
+		},
+		"player_box": {
+			"is": ["player_box"],
+			"collides_with": ["ground"]
+		},
+		"dash_sensor" : {
+			"is" : ["dash_sensor"],
+			"collides_with": ["enemy_hitbox"]
+		},
+		"corpse" : {
+			"is": ["corpse"],
+			"collides_with": ["ground"]
+		},
+		"ground_cast": {
+			"is": ["cast"],
+			"collides_with": ["ground"]
+		},
+		"bullet": {
+			"is": ["bullet"],
+			"collides_with": ["player_hitbox"]
+		},
+		"enemy_cast": {
+			"is": ["enemy_cast"],
+			"collides_with": ["player_hitbox", "ground"]
+		}
+	},
+
+	"shapes" : {
+		"ground" : {
+			"collision_filter" : "ground"
+		},
+		"platform" : {
+			"collision_filter" : "platform"
+		},
+		"enemy_hitbox" : {
+			"trigger": true,
+			"collision_filter" : "enemy_hitbox"
+		},
+		"player_hitbox" : {
+			"trigger": true,
+			"collision_filter" : "player_hitbox"
+		},
+		"player_box" : {
+			"trigger": true,
+			"collision_filter" : "player_box"
+		},
+		"dash_sensor" : {
+			"trigger": true,
+			"collision_filter" : "dash_sensor"
+		},
+		"bullet": {
+			"trigger": true,
+			"collision_filter" : "bullet"
+		}
+	}
+}

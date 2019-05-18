@@ -1,0 +1,41 @@
+{
+	"type" : "ATLAS",
+	"regions" : {
+		"idle00": { "file": "units/clocky/idle/idle0000.png" }, 
+		"idle01": { "file": "units/clocky/idle/idle0001.png" }, 
+		"idle02": { "file": "units/clocky/idle/idle0002.png" }, 
+		"idle03": { "file": "units/clocky/idle/idle0003.png" }, 
+		"idle04": { "file": "units/clocky/idle/idle0004.png" }, 
+		"idle05": { "file": "units/clocky/idle/idle0005.png" }, 
+		"idle06": { "file": "units/clocky/idle/idle0006.png" }, 
+		"idle07": { "file": "units/clocky/idle/idle0007.png" }, 
+		"idle08": { "file": "units/clocky/idle/idle0008.png" }, 
+		"idle09": { "file": "units/clocky/idle/idle0009.png" }, 
+		"idle10": { "file": "units/clocky/idle/idle0010.png" }, 
+		"idle11": { "file": "units/clocky/idle/idle0011.png" }, 
+		"idle12": { "file": "units/clocky/idle/idle0012.png" }, 
+		"idle13": { "file": "units/clocky/idle/idle0013.png" }, 
+		"idle14": { "file": "units/clocky/idle/idle0014.png" }, 
+		"idle15": { "file": "units/clocky/idle/idle0015.png" }, 
+		"idle16": { "file": "units/clocky/idle/idle0016.png" }, 
+		"idle17": { "file": "units/clocky/idle/idle0017.png" }, 
+		"idle18": { "file": "units/clocky/idle/idle0018.png" }, 
+		"idle19": { "file": "units/clocky/idle/idle0019.png" },
+		"idle20": { "file": "units/clocky/idle/idle0020.png" }, 
+
+		"run00" : { "file": "units/clocky/run/run0000.png" },
+		"run01" : { "file": "units/clocky/run/run0001.png" }, 
+		"run02" : { "file": "units/clocky/run/run0002.png" }, 
+		"run03" : { "file": "units/clocky/run/run0003.png" }, 
+		"run04" : { "file": "units/clocky/run/run0004.png" }, 
+		"run05" : { "file": "units/clocky/run/run0005.png" }, 
+		"run06" : { "file": "units/clocky/run/run0006.png" }, 
+		"run07" : { "file": "units/clocky/run/run0007.png" }, 
+		"run08" : { "file": "units/clocky/run/run0008.png" }, 
+		"run09" : { "file": "units/clocky/run/run0009.png" },
+
+		"jump"  : { "file": "units/clocky/jump/jump.png" },
+
+		"overlay" : { "file": "units/clocky/overlay_fx.png" }
+	}
+}
